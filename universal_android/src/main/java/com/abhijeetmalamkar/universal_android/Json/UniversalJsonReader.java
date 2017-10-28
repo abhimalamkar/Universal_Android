@@ -5,7 +5,7 @@ import android.content.Context;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class JsonReader {
+public class UniversalJsonReader {
 
     public static String loadJSONFromAsset(Context context, String filename) {
         String json = null;
